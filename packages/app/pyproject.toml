@@ -1,0 +1,13 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.11"
+dependencies = [
+    "lib",
+    "setuptools>=75.5.0",
+]
+
+[tool.uv.sources]
+lib = { path = "../lib", editable = true }
