@@ -8,9 +8,13 @@ authors = [
 ]
 requires-python = ">=3.10.11"
 dependencies = [
+    "python-magic-bin>=0.4.14",
     "supervisely>=6.73.233",
 ]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.uv]
+reinstall-package = ["python-magic-bin"]

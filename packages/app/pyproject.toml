@@ -11,3 +11,6 @@ dependencies = [
 
 [tool.uv.sources]
 lib = { path = "../lib", editable = true }
+
+# [tool.uv]
+# reinstall-package = ["python-magic-bin"]
